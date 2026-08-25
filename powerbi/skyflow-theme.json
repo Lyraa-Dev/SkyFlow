@@ -1,0 +1,77 @@
+{
+  "name": "SkyFlow",
+  "dataColors": [
+    "#2E6CA4",
+    "#1D9E75",
+    "#378ADD",
+    "#0F6E56",
+    "#85B7EB",
+    "#5DCAA5",
+    "#185FA5",
+    "#C0392B",
+    "#BA7517",
+    "#5F5E5A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F3A5F",
+  "tableAccent": "#2E6CA4",
+  "maximum": "#0C447C",
+  "center": "#85B7EB",
+  "minimum": "#E6F1FB",
+  "null": "#D3D1C7",
+  "textClasses": {
+    "title": {
+      "color": "#1F3A5F",
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold"
+    },
+    "header": {
+      "color": "#1F3A5F",
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold"
+    },
+    "label": {
+      "color": "#333333",
+      "fontSize": 10,
+      "fontFace": "Segoe UI"
+    },
+    "callout": {
+      "color": "#1F3A5F",
+      "fontSize": 28,
+      "fontFace": "Segoe UI"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          { "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": true, "color": { "solid": { "color": "#E6E6E6" } }, "radius": 8 }
+        ],
+        "visualHeader": [
+          { "show": true, "background": { "solid": { "color": "#FFFFFF" } } }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1F3A5F" } },
+            "fontSize": 13,
+            "alignment": "left"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": { "solid": { "color": "#1F3A5F" } }, "fontSize": 28 }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#5F5E5A" } }, "fontSize": 11 }
+        ]
+      }
+    }
+  }
+}

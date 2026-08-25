@@ -1,0 +1,43 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- page background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#1a1a1a"/>
+
+  <!-- header -->
+  <g>
+    <!-- plane icon (simple) -->
+    <path d="M 60 52 L 92 44 L 84 60 L 92 76 L 60 68 L 48 74 L 54 60 L 48 46 Z" fill="#378ADD"/>
+    <text x="108" y="58" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#e8e8e8">SkyFlow — Tráfego aéreo brasileiro</text>
+    <text x="108" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#8a8a8a">Última atualização · dados OpenSky</text>
+    <line x1="60" y1="108" x2="1220" y2="108" stroke="#333333" stroke-width="1.5"/>
+  </g>
+
+  <!-- KPI card frames (4) -->
+  <g>
+    <rect x="60"  y="132" width="272" height="96" rx="10" fill="#242424"/>
+    <rect x="356" y="132" width="272" height="96" rx="10" fill="#242424"/>
+    <rect x="652" y="132" width="272" height="96" rx="10" fill="#242424"/>
+    <rect x="948" y="132" width="272" height="96" rx="10" fill="#242424"/>
+    <text x="80"  y="164" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#9a9a9a">Observações</text>
+    <text x="376" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#9a9a9a">Aeronaves</text>
+    <text x="672" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#9a9a9a">Altitude média</text>
+    <text x="968" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#9a9a9a">Velocidade média</text>
+  </g>
+
+  <!-- middle row: line chart (wide) + region bars -->
+  <g>
+    <rect x="60"  y="252" width="680" height="240" rx="10" fill="#242424"/>
+    <text x="82" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#e8e8e8">Tráfego por hora</text>
+    <text x="82" y="308" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#7a7a7a">linha · em_voo por hour</text>
+
+    <rect x="764" y="252" width="456" height="240" rx="10" fill="#242424"/>
+    <text x="786" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#e8e8e8">Densidade por região</text>
+    <text x="786" y="308" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#7a7a7a">barras · observações</text>
+  </g>
+
+  <!-- bottom row: country ranking (full width) -->
+  <g>
+    <rect x="60" y="516" width="1160" height="176" rx="10" fill="#242424"/>
+    <text x="82" y="548" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#e8e8e8">Ranking de países de origem</text>
+    <text x="82" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#7a7a7a">barras horizontais · aeronaves distintas (top 6)</text>
+  </g>
+</svg>
